@@ -30,7 +30,7 @@ namespace Aon_Freelance.Controllers
 
 
         [HttpGet("{id}")]
-        public IActionResult GetFreelancer(int id)
+        public IActionResult Newproject(int id)
         {
             Project pr = ProjectsList.FirstOrDefault(pr => pr.Id == id);
 
